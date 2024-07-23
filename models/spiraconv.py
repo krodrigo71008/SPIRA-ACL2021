@@ -12,7 +12,7 @@ class SpiraConvV2(nn.Module):
         super(SpiraConvV2, self).__init__()
         self.config = config
         self.audio = self.config['audio']
-        self.padding_with_max_lenght = self.config.dataset['padding_with_max_lenght'] or self.config.dataset['split_wav_using_overlapping']
+        self.padding_with_max_length = self.config.dataset['padding_with_max_length'] or self.config.dataset['split_wav_using_overlapping']
         self.max_seq_len = self.config.dataset['max_seq_len']
         print("Model Inicialized With Feature %s "%self.config.audio['feature'])
         if self.config.audio['feature'] == 'spectrogram':
@@ -42,7 +42,7 @@ class SpiraConvV2(nn.Module):
 
         self.conv = nn.Sequential(*convs)
 
-        if self.padding_with_max_lenght:
+        if self.padding_with_max_length:
             # its very useful because if you change the convlutional arquiture the model calculate its, and you dont need change this :)
             # I prefer aactivate the network in toy example because is more easy than calculate the conv output
             # get zeros input
@@ -71,7 +71,7 @@ class SpiraConvV2(nn.Module):
         x = x.transpose(1, 2).contiguous()
         # x: [B, T, n_filters, num_feature]
         #print(x.shape)
-        if self.padding_with_max_lenght:
+        if self.padding_with_max_length:
              # x: [B, T*n_filters*num_feature]
             x = x.view(x.size(0), -1)
         else:
@@ -94,7 +94,7 @@ class SpiraConvV1(nn.Module):
         super(SpiraConvV1, self).__init__()
         self.config = config
         self.audio = self.config['audio']
-        self.padding_with_max_lenght = self.config.dataset['padding_with_max_lenght']
+        self.padding_with_max_length = self.config.dataset['padding_with_max_length']
         self.max_seq_len = self.config.dataset['max_seq_len']
         print("Model Inicialized With Feature %s "%self.config.audio['feature'])
         if self.config.audio['feature'] == 'spectrogram':
@@ -124,7 +124,7 @@ class SpiraConvV1(nn.Module):
 
         self.conv = nn.Sequential(*convs)
 
-        if self.padding_with_max_lenght:
+        if self.padding_with_max_length:
             # its very useful because if you change the convlutional arquiture the model calculate its, and you dont need change this :)
             # I prefer aactivate the network in toy example because is more easy than calculate the conv output
             # get zeros input
@@ -153,7 +153,7 @@ class SpiraConvV1(nn.Module):
         x = x.transpose(1, 2).contiguous()
         # x: [B, T, n_filters, num_feature]
         #print(x.shape)
-        if self.padding_with_max_lenght:
+        if self.padding_with_max_length:
              # x: [B, T*n_filters*num_feature]
             x = x.view(x.size(0), -1)
         else:

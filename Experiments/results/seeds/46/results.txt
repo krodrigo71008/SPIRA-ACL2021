@@ -56,7 +56,7 @@ Test
 ____________________EVALUATION____________________
 without noise:
 Insert noise ? False
-The Max Time dim Lenght is:  301 It's use overlapping technique, window: 3 step: 1
+The Max Time dim length is:  301 It's use overlapping technique, window: 3 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp1.2/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -70,7 +70,7 @@ Test
  Loss: 0.03316796439503378 Acurracy:  0.96875
 with noise:
 Insert noise ? True
-The Max Time dim Lenght is:  301 It's use overlapping technique, window: 3 step: 1
+The Max Time dim length is:  301 It's use overlapping technique, window: 3 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp1.2/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -84,7 +84,7 @@ Test
  Loss: 3.963482720160755 Acurracy:  0.53125
 ____________________TESTE____________________
 Insert noise ? False
-The Max Time dim Lenght is:  301 It's use overlapping technique, window: 3 step: 1
+The Max Time dim length is:  301 It's use overlapping technique, window: 3 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp1.2/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -97,7 +97,7 @@ All        55  53  108
 Test
  Loss: 0.02603583291379942 Acurracy:  0.9907407407407407
 Insert noise ? True
-The Max Time dim Lenght is:  301 It's use overlapping technique, window: 3 step: 1
+The Max Time dim length is:  301 It's use overlapping technique, window: 3 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp1.2/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -114,7 +114,7 @@ Test
 ____________________EVALUATION____________________
 without noise:
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp1.3/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -128,7 +128,7 @@ Test
  Loss: 0.03208469944775061 Acurracy:  0.96875
 with noise:
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp1.3/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -142,7 +142,7 @@ Test
  Loss: 4.297914302169829 Acurracy:  0.53125
 ____________________TESTE____________________
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp1.3/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -155,7 +155,7 @@ All        56  52  108
 Test
  Loss: 0.05766158805690119 Acurracy:  0.9814814814814815
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp1.3/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -226,7 +226,7 @@ Test
 ____________________EVALUATION____________________
 without noise:
 Insert noise ? False
-The Max Time dim Lenght is:  301 It's use overlapping technique, window: 3 step: 1
+The Max Time dim length is:  301 It's use overlapping technique, window: 3 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp2.2/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -240,7 +240,7 @@ Test
  Loss: 0.8256863477872685 Acurracy:  0.59375
 with noise:
 Insert noise ? True
-The Max Time dim Lenght is:  301 It's use overlapping technique, window: 3 step: 1
+The Max Time dim length is:  301 It's use overlapping technique, window: 3 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp2.2/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -254,7 +254,7 @@ Test
  Loss: 0.41537999839056283 Acurracy:  0.78125
 ____________________TESTE____________________
 Insert noise ? False
-The Max Time dim Lenght is:  301 It's use overlapping technique, window: 3 step: 1
+The Max Time dim length is:  301 It's use overlapping technique, window: 3 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp2.2/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -267,7 +267,7 @@ All        10  98  108
 Test
  Loss: 0.8253326537432494 Acurracy:  0.5740740740740741
 Insert noise ? True
-The Max Time dim Lenght is:  301 It's use overlapping technique, window: 3 step: 1
+The Max Time dim length is:  301 It's use overlapping technique, window: 3 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp2.2/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -284,7 +284,7 @@ Test
 ____________________EVALUATION____________________
 without noise:
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp2.3/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -298,7 +298,7 @@ Test
  Loss: 0.7425202751765028 Acurracy:  0.65625
 with noise:
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp2.3/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -312,7 +312,7 @@ Test
  Loss: 0.36012391245458275 Acurracy:  0.8125
 ____________________TESTE____________________
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp2.3/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -325,7 +325,7 @@ All        21  87  108
 Test
  Loss: 0.7787153864348376 Acurracy:  0.6203703703703703
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp2.3/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -342,7 +342,7 @@ Test
 ____________________EVALUATION____________________
 without noise:
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.1/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -358,7 +358,7 @@ Test
  Loss: 0.4899276727810502 Acurracy:  0.84375
 with noise:
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.1/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -372,7 +372,7 @@ Test
  Loss: 0.9437720710411668 Acurracy:  0.65625
 ____________________TESTE____________________
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.1/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -385,7 +385,7 @@ All        79  29  108
 Test
  Loss: 0.5342917415761838 Acurracy:  0.7685185185185185
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.1/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -402,7 +402,7 @@ Test
 ____________________EVALUATION____________________
 without noise:
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.2/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -416,7 +416,7 @@ Test
  Loss: 0.49219026463106275 Acurracy:  0.78125
 with noise:
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.2/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -430,7 +430,7 @@ Test
  Loss: 0.4381105159409344 Acurracy:  0.78125
 ____________________TESTE____________________
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.2/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -443,7 +443,7 @@ All        34  74  108
 Test
  Loss: 0.46448879330246534 Acurracy:  0.7407407407407407
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.2/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -460,7 +460,7 @@ Test
 ____________________EVALUATION____________________
 without noise:
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.3/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -474,7 +474,7 @@ Test
  Loss: 0.29672233830206096 Acurracy:  0.8125
 with noise:
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.3/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -488,7 +488,7 @@ Test
  Loss: 0.4079912498127669 Acurracy:  0.78125
 ____________________TESTE____________________
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.3/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -501,7 +501,7 @@ All        66  42  108
 Test
  Loss: 0.3038079895906978 Acurracy:  0.8888888888888888
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.3/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -518,7 +518,7 @@ Test
 ____________________EVALUATION____________________
 without noise:
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.4/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -532,7 +532,7 @@ Test
  Loss: 0.34548308374360204 Acurracy:  0.8125
 with noise:
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.4/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -546,7 +546,7 @@ Test
  Loss: 0.34192967833951116 Acurracy:  0.8125
 ____________________TESTE____________________
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.4/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -559,7 +559,7 @@ All        51  57  108
 Test
  Loss: 0.3903395379031146 Acurracy:  0.8240740740740741
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.4/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -576,7 +576,7 @@ Test
 ____________________EVALUATION____________________
 without noise:
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.5/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -590,7 +590,7 @@ Test
  Loss: 0.31853113789111376 Acurracy:  0.875
 with noise:
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.5/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -604,7 +604,7 @@ Test
  Loss: 0.38503545243293047 Acurracy:  0.84375
 ____________________TESTE____________________
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.5/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -617,7 +617,7 @@ All        48  60  108
 Test
  Loss: 0.3337105358088458 Acurracy:  0.8703703703703703
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.5/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -634,7 +634,7 @@ Test
 ____________________EVALUATION____________________
 without noise:
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.6/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -648,7 +648,7 @@ Test
  Loss: 0.7805541675479617 Acurracy:  0.6875
 with noise:
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.6/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -662,7 +662,7 @@ Test
  Loss: 0.45635125748231076 Acurracy:  0.78125
 ____________________TESTE____________________
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.6/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -675,7 +675,7 @@ All        14  94  108
 Test
  Loss: 0.9177823922148457 Acurracy:  0.6296296296296297
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.6/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -692,7 +692,7 @@ Test
 ____________________EVALUATION____________________
 without noise:
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.7/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -706,7 +706,7 @@ Test
  Loss: 0.4330831915140152 Acurracy:  0.875
 with noise:
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.7/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -720,7 +720,7 @@ Test
  Loss: 0.5525586009025574 Acurracy:  0.75
 ____________________TESTE____________________
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.7/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -733,7 +733,7 @@ All        66  42  108
 Test
  Loss: 0.413071577195768 Acurracy:  0.8703703703703703
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.7/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -750,7 +750,7 @@ Test
 ____________________EVALUATION____________________
 without noise:
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.8/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -764,7 +764,7 @@ Test
  Loss: 1.5757462111942004 Acurracy:  0.5
 with noise:
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.8/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -778,7 +778,7 @@ Test
  Loss: 1.1267288429371547 Acurracy:  0.53125
 ____________________TESTE____________________
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.8/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -791,7 +791,7 @@ All        1  107  108
 Test
  Loss: 1.6201183644157868 Acurracy:  0.5092592592592593
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.8/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -808,7 +808,7 @@ Test
 ____________________EVALUATION____________________
 without noise:
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.9/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -822,7 +822,7 @@ Test
  Loss: 0.5354463893454522 Acurracy:  0.71875
 with noise:
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.9/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -836,7 +836,7 @@ Test
  Loss: 0.5290626424830407 Acurracy:  0.75
 ____________________TESTE____________________
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.9/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -849,7 +849,7 @@ All        22  86  108
 Test
  Loss: 0.5657230725994816 Acurracy:  0.7037037037037037
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.9/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -866,7 +866,7 @@ Test
 ____________________EVALUATION____________________
 without noise:
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.10/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -880,7 +880,7 @@ Test
  Loss: 1.6599135230935644 Acurracy:  0.5
 with noise:
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.10/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -894,7 +894,7 @@ Test
  Loss: 1.149756407336099 Acurracy:  0.5625
 ____________________TESTE____________________
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.10/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -907,7 +907,7 @@ All        1  107  108
 Test
  Loss: 1.730526657016189 Acurracy:  0.5092592592592593
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.10/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -924,7 +924,7 @@ Test
 ____________________EVALUATION____________________
 without noise:
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.11/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -938,7 +938,7 @@ Test
  Loss: 0.41918997187167406 Acurracy:  0.875
 with noise:
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.11/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -952,7 +952,7 @@ Test
  Loss: 0.5183544578030705 Acurracy:  0.75
 ____________________TESTE____________________
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.11/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -965,7 +965,7 @@ All        43  65  108
 Test
  Loss: 0.4379674328698052 Acurracy:  0.8611111111111112
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.11/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -982,7 +982,7 @@ Test
 ____________________EVALUATION____________________
 without noise:
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.12/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -996,7 +996,7 @@ Test
  Loss: 1.2150574563856935 Acurracy:  0.5
 with noise:
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.12/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -1010,7 +1010,7 @@ Test
  Loss: 0.8856534524675226 Acurracy:  0.5625
 ____________________TESTE____________________
 Insert noise ? False
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.12/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !
@@ -1023,7 +1023,7 @@ All        1  107  108
 Test
  Loss: 1.2671057038285114 Acurracy:  0.5092592592592593
 Insert noise ? True
-The Max Time dim Lenght is:  401 It's use overlapping technique, window: 4 step: 1
+The Max Time dim length is:  401 It's use overlapping technique, window: 4 step: 1
 Model Inicialized With Feature mfcc 
 Loading checkpoint: ../checkpoints/Paper-Experiments/seeds/exp3.12/46/spiraconv_v2/best_checkpoint.pt
 Model Sucessful Load !

@@ -24,7 +24,7 @@ from models.spiraconv import SpiraConvV1, SpiraConvV2
 from utils.audio_processor import AudioProcessor 
 
 def validation(criterion, ap, model, c, testloader, tensorboard, step,  cuda):
-    padding_with_max_lenght = c.dataset['padding_with_max_lenght'] or c.dataset['split_wav_using_overlapping']
+    padding_with_max_length = c.dataset['padding_with_max_length'] or c.dataset['split_wav_using_overlapping']
     model.zero_grad()
     model.eval()
     loss = 0 
@@ -39,7 +39,7 @@ def validation(criterion, ap, model, c, testloader, tensorboard, step,  cuda):
             output = model(feature).float()
 
             # Calculate loss
-            if not padding_with_max_lenght:
+            if not padding_with_max_length:
                 target = target[:, :output.shape[1],:target.shape[2]]
             loss += criterion(output, target).item()
 
@@ -54,7 +54,7 @@ def validation(criterion, ap, model, c, testloader, tensorboard, step,  cuda):
     return mean_loss
 
 def train(args, log_dir, checkpoint_path, trainloader, testloader, tensorboard, c, model_name, ap, cuda=True):
-    padding_with_max_lenght = c.dataset['padding_with_max_lenght'] or c.dataset['split_wav_using_overlapping']
+    padding_with_max_length = c.dataset['padding_with_max_length'] or c.dataset['split_wav_using_overlapping']
     if(model_name == 'spiraconv_v1'):
         model = SpiraConvV1(c)
     elif (model_name == 'spiraconv_v2'):
@@ -126,7 +126,7 @@ def train(args, log_dir, checkpoint_path, trainloader, testloader, tensorboard, 
 
                 # Calculate loss
                 # adjust target dim
-                if not padding_with_max_lenght:
+                if not padding_with_max_length:
                     target = target[:, :output.shape[1],:]
                 loss = criterion(output, target)
                 optimizer.zero_grad()
@@ -194,7 +194,7 @@ if __name__ == '__main__':
     tensorboard = TensorboardWriter(os.path.join(log_path,'tensorboard'))
 
     train_dataloader = train_dataloader(c, ap)
-    max_seq_len = train_dataloader.dataset.get_max_seq_lenght()
+    max_seq_len = train_dataloader.dataset.get_max_seq_length()
     c.dataset['max_seq_len'] = max_seq_len
     
     # save config in train dir, its necessary for test before train and reproducity

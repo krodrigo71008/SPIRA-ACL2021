@@ -6,21 +6,21 @@
         "split_wav_using_overlapping": true, // if true use the overlapping technique, in which the window was shifted "step" second each time and an instance was extracted during the total audio duration
         "window_len": 4, // windows len in seconds for overlapping technique
         "step": 1, // step len in seconds for overlapping technique
-        "padding_with_max_lenght": false,// if true, the timestep axis will be padded with the longest sequence, else, the timestep will be dynamic and the network will predict a vector of the size of the timestep on the output (if you use convulsions it can decrease)
+        "padding_with_max_length": false,// if true, the timestep axis will be padded with the longest sequence, else, the timestep will be dynamic and the network will predict a vector of the size of the timestep on the output (if you use convulsions it can decrease)
         "max_seq_len": null, // the data loader set automatically this value and save in train_config['logs_path']/config.json. its is max time dimension value in your train dataset. For convert this value to seconds use: value*hop_length/sample_rate
 
         // train dataset
-        "train_csv":"../SPIRA_Dataset_V2/metadata_train.csv", // format path_wav, class
-        "train_data_root_path": "../SPIRA_Dataset_V2/", // complementary path for csv
+        "train_csv":"data/ACL-Dataset/metadata_train.csv", // format path_wav, class
+        "train_data_root_path": "data/ACL-Dataset/", // complementary path for csv
         // evaluation dataset
-        "eval_csv":"../SPIRA_Dataset_V2/metadata_eval.csv", // format path_wav, class
-        "eval_data_root_path": "../SPIRA_Dataset_V2/", // complementary path for csv
+        "eval_csv":"data/ACL-Dataset/metadata_eval.csv", // format path_wav, class
+        "eval_data_root_path": "data/ACL-Dataset/", // complementary path for csv
         // test dataset
-        "test_csv":"../SPIRA_Dataset_V2/metadata_test.csv", // format path_wav, class
-        "test_data_root_path": "../SPIRA_Dataset_V2/", // complementary path for csv
+        "test_csv":"data/ACL-Dataset/metadata_test.csv", // format path_wav, class
+        "test_data_root_path": "data/ACL-Dataset/", // complementary path for csv
         // noise dataset for data aumentation
-        "noise_csv":"../Ruidos-Hospitalares/noise_data.csv",// format path_wav
-        "noise_data_root_path":"../Ruidos-Hospitalares/", // complementary path for csv
+        "noise_csv":"data/Ruidos-Hospitalares/noise_data.csv",// format path_wav
+        "noise_data_root_path":"data/Ruidos-Hospitalares/", // complementary path for csv
         // classes definition
         "control_class": 0,
         "patient_class": 1
@@ -39,7 +39,7 @@
         "optimizer":"adam",
         "batch_size": 30,
         "seed": 42,
-        "num_workers": 14,
+        "num_workers": 8,
         "logs_path": "../checkpoints/spira-chekpoints/",
         "reinit_layers": null,
         "summary_interval": 10,
